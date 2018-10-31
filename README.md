@@ -52,7 +52,7 @@ Then do some pre-setup steps for the internal dependency - xmpp.js lib:
 
 ```bash
 cd node_modules/connectycube-reactnative/xmpp.js
-make
+make # for this step you need to use Node 9.x.x. 
 cd ../../../
 cp -r node_modules/connectycube-reactnative/xmpp.js/node_modules/* node_modules/
 ```
