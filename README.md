@@ -48,15 +48,6 @@ Simply install the package in a normal way:
 npm install connectycube-reactnative --save
 ```
 
-Then do some pre-setup steps for the internal dependency - xmpp.js lib: 
-
-```bash
-cd node_modules/connectycube-reactnative/xmpp.js
-make # for this step you need to use Node 9.x.x. 
-cd ../../../
-cp -r node_modules/connectycube-reactnative/xmpp.js/node_modules/* node_modules/
-```
-
 and you're ready to go:
 
 ```javascript
