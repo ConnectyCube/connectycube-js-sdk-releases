@@ -27,7 +27,7 @@ All users within the same ConnectyCube app can communicate by chat or video chat
 
 If you are just starting your app and developing it from scratch, we recommend to use our Code Samples projects.
 
-?> [Download Code Samples](/js/code-samples)
+[Download Code Samples](https://developers.connectycube.com/js/code-samples)
 
 These code samples are ready-to-go apps with an appropriate functionality and simple enough that even novice developers will be able to understand them.
 
