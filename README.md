@@ -17,6 +17,8 @@ ConnectyCube Javascript SDK can be used on the following environments:
 -   NativeScript
 -   ReactNative
 
+Original JS developers page https://developers.connectycube.com/js/
+
 ## Create ConnectyCube app
 
 Register a FREE ConnectyCube account at [https://connectycube.com/signup](https://connectycube.com/signup), then create your 1st app and obtain an app credentials. These credentials will be used to identify your app.
