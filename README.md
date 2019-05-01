@@ -4,7 +4,7 @@ This repository contains changelog and links to JS products released by Connecty
 
 If you have any questions, comments, or issues related to any products distributed via this repository then please raise an issue here on GitHub repository or contact the team by emailing [support@connectycube.com](mailto:support@connectycube.com).
 
-# SDK overview
+## SDK overview
 
 ConnectyCube helps you implement real-time chat, video chat, push notifications and user authorization to any app with ease - no server side implementation required. You can concentrate fully on your mobile app development. Our JS SDK provides you with many helpful methods to build the chat and video chat from the client side.
 
@@ -123,14 +123,14 @@ var CONFIG = {
 ConnectyCube.init(CREDENTIALS, CONFIG);
 ```
 
-# SDK Changelog
+## SDK Changelog
 
 The complete SDK changelog is available on [ConnectyCube Javascript Releases GitHub page](https://github.com/ConnectyCube/connectycube-js-sdk-releases/releases)
 
-# Contact
+## Contact
 
 You can reach the ConnectyCube team at any time by emailing [support@connectycube.com](mailto:support@connectycube.com).
 
-# Licence
+## Licence
 
 ConnectyCube SDK for JS is licensed under the ConnectyCube SDK License.
