@@ -131,6 +131,6 @@ The complete SDK changelog is available on [ConnectyCube Javascript Releases Git
 
 You can reach the ConnectyCube team at any time by emailing [support@connectycube.com](mailto:support@connectycube.com).
 
-## Licence
+## License
 
 ConnectyCube SDK for JS is licensed under the ConnectyCube SDK License.
