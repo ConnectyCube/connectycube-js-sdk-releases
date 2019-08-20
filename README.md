@@ -94,8 +94,7 @@ npm install connectycube-reactnative --save
 and you're ready to go:
 
 ```javascript
-import { ConnectyCube } from 'connectycube-reactnative';
-var CB = new ConnectyCube();
+import ConnectyCube from 'connectycube-reactnative';
 ```
 
 ### Initialize
