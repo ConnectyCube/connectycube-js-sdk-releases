@@ -13,11 +13,11 @@ This page presents a quick overview of the SDK’s functionalities and logic, th
 ConnectyCube Javascript SDK can be used on the following environments:
 
 - Browser
-- Cordova
-- ReactNative
-- NativeScript
 - Node.js
-
+- React Native
+- NativeScript
+- Apache Cordova
+- Electron
 
 Original JS developers page https://developers.connectycube.com/js/
 
@@ -80,7 +80,7 @@ npm install connectycube --save
 and you're ready to go:
 
 ```javascript
-var cubeClient = require('connectycube');
+var cubeClient = require("connectycube");
 ```
 
 #### React Native
@@ -88,13 +88,13 @@ var cubeClient = require('connectycube');
 Simply install the package in a normal way:
 
 ```bash
-npm install connectycube-reactnative --save
+npm install react-native-connectycube --save
 ```
 
 and you're ready to go:
 
 ```javascript
-import ConnectyCube from 'connectycube-reactnative';
+import ConnectyCube from "react-native-connectycube";
 ```
 
 ### Initialize
@@ -103,9 +103,9 @@ Initialize framework with your ConnectyCube application credentials:
 
 ```javascript
 var CREDENTIALS = {
-    appId: 21,
-    authKey: 'hhf87hfushuiwef',
-    authSecret: 'jjsdf898hfsdfk'
+  appId: 21,
+  authKey: "hhf87hfushuiwef",
+  authSecret: "jjsdf898hfsdfk"
 };
 
 ConnectyCube.init(CREDENTIALS);
@@ -117,7 +117,7 @@ An additional set of configs can be passed as a 2nd argument in `init` function:
 
 ```javascript
 var CONFIG = {
-    debug: { mode: 1 } // enable DEBUG mode (mode 0 is logs off, mode 1 -> console.log())
+  debug: { mode: 1 } // enable DEBUG mode (mode 0 is logs off, mode 1 -> console.log())
 };
 ConnectyCube.init(CREDENTIALS, CONFIG);
 ```
