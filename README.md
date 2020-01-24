@@ -13,11 +13,11 @@ This page presents a quick overview of the SDK’s functionalities and logic, th
 ConnectyCube Javascript SDK can be used on the following environments:
 
 - Browser
-- Node.js
-- React Native
-- NativeScript
-- Apache Cordova
-- Electron
+- [Node.js](https://nodejs.org/)
+- [React Native](https://facebook.github.io/react-native/)
+- [NativeScript](https://www.nativescript.org/)
+- [Apache Cordova](https://cordova.apache.org/)
+- [Electron](https://www.electronjs.org/)
 
 Original JS developers page https://developers.connectycube.com/js/
 
