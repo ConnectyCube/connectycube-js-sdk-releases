@@ -51,7 +51,7 @@ Simply connect the JS file as a normal script:
 
 where **x.x.x** is the desired JS SDK version (check for [Releases page](https://github.com/ConnectyCube/connectycube-js-sdk-releases/releases) for all available versions).
 
-The latest version is **2.1.2**
+The latest version is **2.1.6**
 
 Then a window scoped variable called `ConnectyCube` is created.
 
