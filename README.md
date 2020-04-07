@@ -80,7 +80,7 @@ npm install connectycube --save
 and you're ready to go:
 
 ```javascript
-var cubeClient = require("connectycube");
+const cubeClient = require("connectycube");
 ```
 
 #### React Native
@@ -102,7 +102,7 @@ import ConnectyCube from "react-native-connectycube";
 Initialize framework with your ConnectyCube application credentials:
 
 ```javascript
-var CREDENTIALS = {
+const CREDENTIALS = {
   appId: 21,
   authKey: "hhf87hfushuiwef",
   authSecret: "jjsdf898hfsdfk"
@@ -116,7 +116,7 @@ ConnectyCube.init(CREDENTIALS);
 An additional set of configs can be passed as a 2nd argument in `init` function:
 
 ```javascript
-var CONFIG = {
+const CONFIG = {
   debug: { mode: 1 } // enable DEBUG mode (mode 0 is logs off, mode 1 -> console.log())
 };
 ConnectyCube.init(CREDENTIALS, CONFIG);
