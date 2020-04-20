@@ -51,7 +51,7 @@ Simply connect the JS file as a normal script:
 
 where **x.x.x** is the desired JS SDK version (check for [Releases page](https://github.com/ConnectyCube/connectycube-js-sdk-releases/releases) for all available versions).
 
-The latest version is **2.1.6**
+The latest version is **3.0.0**
 
 Then a window scoped variable called `ConnectyCube` is created.
 
@@ -105,7 +105,7 @@ Initialize framework with your ConnectyCube application credentials:
 const CREDENTIALS = {
   appId: 21,
   authKey: "hhf87hfushuiwef",
-  authSecret: "jjsdf898hfsdfk"
+  authSecret: "jjsdf898hfsdfk",
 };
 
 ConnectyCube.init(CREDENTIALS);
@@ -117,7 +117,7 @@ An additional set of configs can be passed as a 2nd argument in `init` function:
 
 ```javascript
 const CONFIG = {
-  debug: { mode: 1 } // enable DEBUG mode (mode 0 is logs off, mode 1 -> console.log())
+  debug: { mode: 1 }, // enable DEBUG mode (mode 0 is logs off, mode 1 -> console.log())
 };
 ConnectyCube.init(CREDENTIALS, CONFIG);
 ```
