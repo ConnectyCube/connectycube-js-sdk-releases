@@ -27,7 +27,7 @@ Register a FREE ConnectyCube account at [https://connectycube.com/signup](https:
 
 All users within the same ConnectyCube app can communicate by chat or video chat with each other, across all platforms - iOS, Android, Web, etc.
 
-## When building a new app
+## Building a new app
 
 If you are just starting your app and developing it from scratch, we recommend to use our Code Samples projects.
 
@@ -70,7 +70,6 @@ And add script to HTML file from the 'node_modules' folder (as a relative path):
 See [an example of simple application based on Webpack build](https://github.com/ConnectyCube/connectycube-js-samples/tree/master/sample-webpack-build-app)
 
 #### Node.js/NPM, Native Script
-
 Simply install the package in a normal way:
 
 ```bash
@@ -126,7 +125,7 @@ ConnectyCube.init(CREDENTIALS, CONFIG);
 
 The complete SDK changelog is available on [ConnectyCube Javascript Releases GitHub page](https://github.com/ConnectyCube/connectycube-js-sdk-releases/releases)
 
-## Contact
+## Contact Us
 
 You can reach the ConnectyCube team at any time by emailing [support@connectycube.com](mailto:support@connectycube.com).
 
