@@ -1,5 +1,14 @@
 # Changelog
 
+## 3.29.0
+
+### Upgraded
+
+- connectycube SDK ("crypto-js", "fbemitter", "form-data", "node-fetch" and devDependencies);
+- react-native-connectycube SDK ("crypto-js", "fbemitter", "js-base64", "react-native-webrtc");
+- webpack config in connectycube JavaScript SDK;
+- lerna for repository.
+
 ## 3.28.0
 
 ### Added
