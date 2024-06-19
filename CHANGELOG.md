@@ -1,5 +1,24 @@
 # Changelog
 
+## 3.30.0
+
+### Updated
+
+- [Video Calling][Conference Video Calling] "session.getUserMedia(mediaParams)" and "session.getDisplayMedia(mediaParams)" have been updated to correctly update an existed stream (track) when it needs to be replaced with a new one;
+
+### Removed
+
+- [Video Calling][Conference Video Calling] "session.stopLocalStreamTracks()" method was removed;
+
+### Upgraded
+
+- react-native-connectycube SDK (react-native-webrtc v124.0.1);
+
+### Added
+
+- react-native-connectycube.podspec.
+
+
 ## 3.29.0
 
 ### Upgraded
