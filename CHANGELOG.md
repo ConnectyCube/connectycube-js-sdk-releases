@@ -1,5 +1,20 @@
 # Changelog
 
+## 3.31.0
+
+### Added
+
+- prettifier;
+- typescript declarations (types/\*\*/\*.d.ts);
+
+### Updated
+
+- [React Native][videocalling][videocalling conference] `getDisplayMedia` may not accept parameters
+
+### Removed
+
+- warnings about deprecated code.
+
 ## 3.30.0
 
 ### Updated
@@ -18,7 +33,6 @@
 
 - react-native-connectycube.podspec.
 
-
 ## 3.29.0
 
 ### Upgraded
@@ -36,7 +50,7 @@
 - [JS Custom Data documentation](https://developers.connectycube.com/js/custom-data);
 - [React Native Custom Data documentation](https://developers.connectycube.com/reactnative/custom-data);
 - [Cordova Custom Data documentation](https://developers.connectycube.com/cordova/custom-data);
-- [NativeScript Custom Data documentation](https://developers.connectycube.com/nativescript/custom-data); 
+- [NativeScript Custom Data documentation](https://developers.connectycube.com/nativescript/custom-data);
 
 ### Updated
 
@@ -63,12 +77,12 @@
 - Removed a redundant feature
 - Added a new functionality
 - Improved overall performance
-    - Enhanced user interface responsiveness
+  - Enhanced user interface responsiveness
 
 ### Features
 
 - :tada: Implemented a new feature
-    - This feature allows users to...
+  - This feature allows users to...
 - Added a user profile customization option
 
 ### Bug Fixes
