@@ -1,5 +1,35 @@
 # Changelog
 
+## 3.32.0
+
+### Added
+
+- `session.restartIce(userID)` to restore WebRTC peer connection;
+- `ConnectyCube.chat.pingWithTimeout(msTimeout).then(() => {...}).catch((e) => {...});`
+
+### Fixed
+
+- [Chat] prevent presence error from XMPP chat
+
+Usage flow:
+
+```javascript
+ConnectyCube.videochat.onSessionConnectionStateChangedListener = function (session, userID, connectionState) {
+  if (connectionState === 'failed') {
+    if (onLine && session.canInitiateIceRestart(userID)) {
+      session.restartIce(userID);
+    }
+  }
+};
+```
+
+```javascript
+ConnectyCube.chat
+  .pingWithTimeout()
+  .then(() => {})
+  .catch((error) => {});
+```
+
 ## 3.31.0
 
 ### Added
