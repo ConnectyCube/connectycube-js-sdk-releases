@@ -1,6 +1,14 @@
 # Changelog
 
+## 3.33.2
+
+### Fixed
+
+- the "@xmpp/client" dependency was reverted to version 0.9.2 to prevent errors with XMPP chat (streamManagement - "[Chat] ERROR: TypeError: Cannot read properties of undefined (reading 'catch')").
+
 ## 3.33.1
+
+❗️ This release has XMPP chat issues. Upgrade to 3.33.2 or dump to 0.32.0.
 
 ### Fixed
 
@@ -8,6 +16,8 @@
 - typescript declarations for ConnectyCube.videochatconference.
 
 ## 3.33.0
+
+❗️ This release has XMPP chat issues. Upgrade to 3.33.2 or dump to 0.32.0.
 
 ### Upgraded
 
