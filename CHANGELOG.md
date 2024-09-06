@@ -1,11 +1,18 @@
 # Changelog
 
+## 3.33.1
+
+### Fixed
+
+- typescript declarations for ConnectyCube.videochat;
+- typescript declarations for ConnectyCube.videochatconference.
+
 ## 3.33.0
 
 ### Upgraded
 
 - _@xmpp/client_ from 0.9.2 to 0.13.1 in all packages;
-- _react-native-webrtc_ from 124.0.1 to 24.0.4 in _react-native-connectycube_;
+- _react-native-webrtc_ from 124.0.1 to 124.0.4 in _react-native-connectycube_;
 - all "devDependencies" in _connectycube_ package;
 
 ### Fixed
