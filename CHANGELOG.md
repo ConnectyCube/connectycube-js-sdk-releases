@@ -1,5 +1,25 @@
 # Changelog
 
+## 3.34.0
+
+### Fixed
+
+- [ConnectyCube.videochat] session.getUserMedia(mediaOptions) returns undefined;
+
+### Updated
+
+- [react-native-connectycube] "react-native-webrtc" has been replaced from dependencies to peerDependencies to support autolinking
+
+```bash
+yarn add react-native-connectycube react-native-webrtc
+```
+
+or
+
+```bash
+npm install react-native-connectycube react-native-webrtc --save
+```
+
 ## 3.33.2
 
 ### Fixed
