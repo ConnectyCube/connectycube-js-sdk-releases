@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.35.1
+
+[Types] Second argument is optional in `ConnectyCube.init(credentials, config)` (`ConnectyCube.init(credentials: any, configMap: any): void` > `ConnectyCube.init(credentials: any, configMap?: any): void`)
+
 ## 3.35.0
 
 _@xmpp/client_ was upgraded from 0.9.2 to 0.13.1 in all packages. ConnectyCube SDK uses custom build of the _xmpp.js_ library to get rid of _@xmpp/stream-management_ package, which was replaced by ConnectyCube stream-management implementation
