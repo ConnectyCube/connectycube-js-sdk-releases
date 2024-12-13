@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.35.2
+
+### Fixed
+
+- [node.js] it tries to use internal `fetch` first instead of `require('node-fetch').default`;
+- parameters for `ConnectyCube.createSession(params)` are optional;
+- fixed error when trying to overwrite a const;
+
 ## 3.35.1
 
 [Types] Second argument is optional in `ConnectyCube.init(credentials, config)` (`ConnectyCube.init(credentials: any, configMap: any): void` > `ConnectyCube.init(credentials: any, configMap?: any): void`)
