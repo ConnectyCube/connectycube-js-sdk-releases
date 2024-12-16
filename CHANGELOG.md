@@ -1,6 +1,14 @@
 # Changelog
 
+## 3.35.3
+
+### Fixed
+
+- [node.js] reverted to 'node-fetch' instead of internal 'fetch' to avoid file upload issue;
+
 ## 3.35.2
+
+❗️ This release has issues with `ConnectyCube.storage.createAndUpload(params)` method in node.js environment. Update to 3.35.3.
 
 ### Fixed
 
