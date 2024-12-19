@@ -1,5 +1,23 @@
 # Changelog
 
+## 4.0.0
+
+### Added
+
+- Full TypeScript source code;
+
+### Updated
+
+- Webpack bundler was replaced by Rollup module bundler (ECMAScript Module, CommonJS, and UMD);
+- the `fbemitter` was replaced by the `eventemitter3` dependency;
+- Contact List (XMPP Roster) marked as deprecated and will be removed in next major release;
+- the `ConnectyCube.users.get(params)` method marked as deprecated and will be removed in next major release.
+
+### Removed
+
+- the `nativescript-connectycube` package was removed and will no longer be supported;
+- removed the `crypto-js` dependency.
+
 ## 3.35.3
 
 ### Fixed
@@ -154,7 +172,6 @@ ConnectyCube.chat
 - [JS Custom Data documentation](https://developers.connectycube.com/js/custom-data);
 - [React Native Custom Data documentation](https://developers.connectycube.com/reactnative/custom-data);
 - [Cordova Custom Data documentation](https://developers.connectycube.com/cordova/custom-data);
-- [NativeScript Custom Data documentation](https://developers.connectycube.com/nativescript/custom-data);
 
 ### Updated
 
