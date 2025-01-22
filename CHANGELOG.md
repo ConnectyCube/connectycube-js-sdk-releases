@@ -1,5 +1,26 @@
 # Changelog
 
+## 4.0.1
+
+### Upgraded
+
+- `xmpp.js` libraries were upgraded;
+- [react-native-connectycube] SpecRunner was upgraded migrated to the latest React Native 0.76.5
+
+## Updated
+
+- fixed TypeScript issues;
+- checks the connection status when sending a message;
+- defines SDK version from `package.json`;
+- [connectycube] UMD bundle was optimized to decrease output size;
+- [react-native-connectycube] `rollup` was replaces by `typescript` build;
+- [react-native-connectycube] `react-native-webrtc` library is now supported as peerDependency;
+
+## Deprecated
+
+- `ConnectyCube.login(user)` was deprecated. Use `ConnectyCube.createSession(user)` or `ConnectyCube.auth.login(user)` instead;
+- `ConnectyCube.logout()` was deprecated. Use `ConnectyCube.destroySession()` or `ConnectyCube.auth.logout()` instead.
+
 ## 4.0.0
 
 ### Added
