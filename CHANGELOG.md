@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.0.2
+
+## Fixed
+
+- now `ConnectyCube.setSession(session)` uses correct context;
+
 ## 4.0.1
 
 ### Upgraded
