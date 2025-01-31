@@ -1,8 +1,26 @@
 # Changelog
 
+## 4.1.0
+
+### Added
+
+- new API to get online users:
+
+```typescript
+ConnectyCube.users.listOnline({limit?: number, offset?: number}): Promise<{users: array<User>}>;
+```
+
+### Removed
+
+- Contact List (XMPP Roster) was removed as deprecated;
+
+### Fixed
+
+- Dialog types.
+
 ## 4.0.2
 
-## Fixed
+### Fixed
 
 - now `ConnectyCube.setSession(session)` uses correct context;
 
@@ -13,7 +31,7 @@
 - `xmpp.js` libraries were upgraded;
 - [react-native-connectycube] SpecRunner was upgraded migrated to the latest React Native 0.76.5
 
-## Updated
+### Updated
 
 - fixed TypeScript issues;
 - checks the connection status when sending a message;
@@ -22,7 +40,7 @@
 - [react-native-connectycube] `rollup` was replaces by `typescript` build;
 - [react-native-connectycube] `react-native-webrtc` library is now supported as peerDependency;
 
-## Deprecated
+### Deprecated
 
 - `ConnectyCube.login(user)` was deprecated. Use `ConnectyCube.createSession(user)` or `ConnectyCube.auth.login(user)` instead;
 - `ConnectyCube.logout()` was deprecated. Use `ConnectyCube.destroySession()` or `ConnectyCube.auth.logout()` instead.
