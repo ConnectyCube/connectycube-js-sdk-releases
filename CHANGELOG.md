@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.1.1
+
+### Updated
+
+- `Users` and `Messages.Attachment` types.
+
 ## 4.1.0
 
 ### Added
