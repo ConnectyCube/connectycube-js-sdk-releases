@@ -1,5 +1,15 @@
 # Changelog
 
+## 4.1.2
+
+### Updated
+
+- `Dialogs.Dialog` types;
+
+### Fixed
+
+- fixed `ConnectyCube.users.listOnline` test to compare users results without strict order.
+
 ## 4.1.1
 
 ### Updated
