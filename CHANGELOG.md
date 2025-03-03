@@ -1,5 +1,13 @@
 # Changelog
 
+## 4.1.3
+
+### Updated
+
+- the `ConnectyCube.chat.privacylist.setAsDefault` method can take null to deactivate the default list;
+- the `CHANNEL` property was renamed to `BROADCAST` in `enum DialogType`;
+- now `enum`s are exported in the same way as types.
+
 ## 4.1.2
 
 ### Updated
@@ -244,7 +252,7 @@ ConnectyCube.chat
 
 ### Bug Fixes
 
-- "react-native-connetycube": fixed the error "ERROR TypeError: Cannot read property 'enumerateDevices' of undefined" if the "react-native-webrtc" isn't supported.
+- "react-native-connectycube": fixed the error "ERROR TypeError: Cannot read property 'enumerateDevices' of undefined" if the "react-native-webrtc" isn't supported.
 
 ## 0.0.1
 
