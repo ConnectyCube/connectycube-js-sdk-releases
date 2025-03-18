@@ -1,5 +1,44 @@
 # Changelog
 
+## 4.2.2
+
+### Fixed
+
+- [react-native-connectycube] export `index.d.ts` from `connectycube/types` was fixed;
+
+## 4.2.1
+
+### Implemented
+
+- support node 22;
+
+### Updated
+
+- allows imports of types and enums from `connectycube/types` path;
+- fixed TypeScript issues;
+- added "engines" to package.json.
+
+## 4.2.0
+
+### Implemented
+
+- Push Notifications for web.
+
+## 4.1.4
+
+### Improved
+
+- `ConnectyCube.privacyList.update(list)` was updated to get rid of storing allowed users;
+
+### Updated
+
+- listeners types;
+
+### Fixed
+
+- homepage link for `connectycube` sdk;
+- removed `lerna` from the project.
+
 ## 4.1.3
 
 ### Updated
