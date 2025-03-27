@@ -1,5 +1,22 @@
 # Changelog
 
+## 4.3.0
+
+### Implemented
+
+- new API to get online users count:
+
+```typescript
+ConnectyCube.users.getOnlineCount(): Promise<{count: number}>;
+```
+
+- LinkPreview API:
+
+```typescript
+ConnectyCube.linkpreview.get(url: string): Promise<LinkPreview>;
+ConnectyCube.linkpreview.cache: Map<string, LinkPreview>;
+```
+
 ## 4.2.2
 
 ### Fixed
