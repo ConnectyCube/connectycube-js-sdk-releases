@@ -1,5 +1,20 @@
 # Changelog
 
+## 4.4.0
+
+### Updated
+
+- [chat] _Stream Management_ was refactored to return unacknowledged messages as "lost" via the `onMessageSentCallback`. A new config option `config.chat.streamManagement.acknowledgementTimeout` was added to specify the timeout (in seconds) after which messages without an acknowledgement will be considered lost;
+- [chat] removed the time-based ping configuration (`config.chat.ping = { enable: boolean; timeInterval: number }`). Instead, use `await ConnectyCube.chat.pingWithTimeout(timeout)` or `await ConnectyCube.chat.ping()` when needed;
+
+### Fixed
+
+- [chat] _Stream Management_ test;
+- [videochat] `iceCandidates` exchange;
+- [videochat] does not try to call itself if it needs to establish an `RTCPeerConnection` with multiple users;
+- [videochat] call timers;
+- types.
+
 ## 4.3.0
 
 ### Implemented
