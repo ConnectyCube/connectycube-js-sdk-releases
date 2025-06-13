@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.5.0
+
+### Updated
+
+- [chat] added method `ConnectyCube.chat.stop()` that allows reconnecting to chat and resets _Stream Management_
+
 ## 4.4.0
 
 ### Updated
