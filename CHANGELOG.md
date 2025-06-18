@@ -1,10 +1,20 @@
 # Changelog
 
+## 4.6.0
+
+### Updated
+
+- [chat] method `ConnectyCube.chat.stop()` was refactored amd renamed to `ConnectyCube.chat.terminate()`;
+
+### Fixed
+
+- [chat] enable _Stream Management_ on chat reconnection.
+
 ## 4.5.0
 
 ### Updated
 
-- [chat] added method `ConnectyCube.chat.stop()` that allows reconnecting to chat and resets _Stream Management_
+- [chat] added method `ConnectyCube.chat.stop()` that allows reconnecting to chat and resets _Stream Management_.
 
 ## 4.4.0
 
