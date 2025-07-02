@@ -1,6 +1,40 @@
 # Changelog
 
+## 4.7.0
+
+### Implemented
+
+- [connectycube] **SSR patching support for `@xmpp/client` libraries**  
+  Added a CLI script to patch and revert internal dependencies (e.g. `@xmpp/events`) for compatibility with SSR environments.
+
+  #### Usage
+
+  ```bash
+  # With npm
+  npm install connectycube
+  npx connectycube patch-ssr      # Apply SSR patches
+  npx connectycube revert-ssr     # Revert SSR patches
+
+  # With yarn
+  yarn add connectycube
+  yarn connectycube patch-ssr     # Apply SSR patches
+  yarn connectycube revert-ssr    # Revert SSR patches
+  ```
+
+### Misc
+
+- [connectycube] rollup build optimized for cleaner and more modular outputs
+
+## 4.6.2
+
+### Fixed
+
+- reverted the `@rollup/plugin-typescript@12.1.2` devDependency to fix browser/node builds
+- added `@rollup/rollup-linux-x64-gnu` as an optionalDependency to fix the builder
+
 ## 4.6.0
+
+❗️ This release contains a critical issue in the browser. Upgrade to 4.6.2 or dump to 4.5.0.
 
 ### Updated
 
