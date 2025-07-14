@@ -1,11 +1,17 @@
 # Changelog
 
+## 4.7.1
+
+### Fixed
+
+- The `Promise.race` was replaced with manual timeout handling in `ConnectyCube.chat.pingWithTimeout(timeout)` to avoid unhandled errors and ensure proper cleanup
+
 ## 4.7.0
 
 ### Implemented
 
 - [connectycube] **SSR patching support for `@xmpp/client` libraries**  
-  Added a CLI script to patch and revert internal dependencies (e.g. `@xmpp/events`) for compatibility with SSR environments.
+  Added a CLI script to patch and revert internal dependencies (e.g. `@xmpp/events`) for compatibility with SSR environments
 
   #### Usage
 
