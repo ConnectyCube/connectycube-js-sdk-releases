@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.7.2
+
+### Fixed
+
+- TypeScript issues
+- [videochat] the method `closeSessionIfAllConnectionsClosed` can close active connections
+
 ## 4.7.1
 
 ### Fixed
