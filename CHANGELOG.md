@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.7.3
+
+### Fixed
+
+- [videochatconference] the method `switchMediaTracks` was getting the wrong media stream
+
 ## 4.7.2
 
 ### Fixed
