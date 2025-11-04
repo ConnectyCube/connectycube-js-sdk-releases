@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.0.2
+
+### Fixes
+
+- umd build & modularity
+
 ## 5.0.1
 
 ### Internal improvements
