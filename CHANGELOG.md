@@ -1,8 +1,12 @@
 # Changelog
 
-## 4.7.4 - 4.7.6
+## 5.0.1
 
-❗️ This is beta releases. Upgrade to 5.0.0 or dump to 4.7.3 to avoid any issues.
+### Internal improvements
+
+- build & modularity
+
+## 5.0.0
 
 ### Features
 
@@ -10,7 +14,7 @@
 
 ### Updated
 
-- the `connectycube` project now can replace `react-native-connectycube` and is fully compatible with browser, node.js, and React Native
+- the `connectycube` project can now replace `react-native-connectycube`
 
 # Changelog
 
