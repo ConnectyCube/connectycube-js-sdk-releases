@@ -1,5 +1,28 @@
 # Changelog
 
+## 6.0.0
+
+### Features
+
+- implement `SAMA` chat api
+- [js-sdk] add config prop `chat.apiImp` available values `xmpp`(default) | `sama`
+- [js-sdk] add config prop `endpoints.api_url`, `endpoints.chat_url`
+
+### Updated
+
+- upgrade `xmpp.js` to version 0.14.0, support node > 20
+
+### Refactor
+
+- [react] `message.isLoading` was replaced by `message.pending`
+- [react] remove "date-fns" dependency and `lastMessageSentTimeString` and `messageSentTimeString` methods for more fine-tuning outside the hook
+
+### Fixes
+
+- [react] last message status updates in dialog's state
+- add "@rollup/rollup-darwin-x64" to "optionalDependencies"
+- handle error from "mediaElement.play()"
+
 ## 5.0.2
 
 ### Fixes
