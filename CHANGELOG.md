@@ -2,12 +2,6 @@
 
 ## 6.0.0
 
-### Features
-
-- implement `SAMA` chat api
-- [js-sdk] add config prop `chat.apiImp` available values `xmpp`(default) | `sama`
-- [js-sdk] add config prop `endpoints.api_url`, `endpoints.chat_url`
-
 ### Updated
 
 - upgrade `xmpp.js` to version 0.14.0, support node > 20
