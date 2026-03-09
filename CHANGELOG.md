@@ -1,6 +1,34 @@
 # Changelog
 
+## 6.1.2
+
+### Features
+
+- [react] add useAddressBook hook and useAddressBookStore for address book functionality. Store holds `contacts` and `registeredUsers`; methods update store: `getAddressBook(udid?)`, `getRegisteredUsers(params?)`; `uploadAddressBook(list?, params?)` returns response. Use `useAddressBook()` or `useConnectyCube()`
+- [react] add useLinkPreview hook and integrate into ConnectyCubeContext for link preview functionality. Use `useLinkPreview()` or `useConnectyCube()`; methods: `getLinkPreview(url):  Promise<LinkPreview>`, `clearLinkPreviewCache()`
+
+### Refactor
+
+- enable TypeScript strict mode
+- replace string throws with Error objects for improved error handling in JanusClient and [react] useChat hooks
+
+### Updated
+
+- upgrade devDependencies
+- [react] prevent duplicate messages and unread message counter
+- add README.md for ConnectyCube JS SDK with installation, build, testing, and contribution guidelines
+
+### Fixes
+
+- fix duplicate spec names in tests (Jasmine 6)
+
 ## 6.0.0
+
+### Features
+
+- implement `SAMA` chat api
+- [js-sdk] add config prop `chat.apiImp` available values `xmpp`(default) | `sama`
+- [js-sdk] add config prop `endpoints.api_url`, `endpoints.chat_url`
 
 ### Updated
 
