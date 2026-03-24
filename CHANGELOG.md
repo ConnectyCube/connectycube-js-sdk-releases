@@ -1,5 +1,17 @@
 # Changelog
 
+## 6.2.0
+
+### Updated
+
+- [react] `getLastActivity(userId, force?)`: throttle `getLastUserActivity` IQ to cut traffic; pass `force` to bypass and always hit the server
+- [react] last activity in store is idle **seconds** instead of formatted text
+- [react-native] `platform.react-native`: `fetchImpl` / `FormDataImpl` read from `global` when used
+
+### Fixes
+
+- [react] `fetchAllOnlineUsers: (force?: boolean)`: throttle issue
+
 ## 6.1.2
 
 ### Features
