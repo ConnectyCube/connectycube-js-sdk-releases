@@ -1,5 +1,11 @@
 # Changelog
 
+## 6.2.1
+
+### Fixes
+
+- [react] update last activity logic to prevent incrementing when user lastActivity is zero seconds (online)
+
 ## 6.2.0
 
 ### Updated
